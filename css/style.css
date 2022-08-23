@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.big_heading {
+  font-size: 65px;
+  font-weight: 700;
+  color: #ffce32;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.mini_heading {
+  font-size: 35px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.pera {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn {
+  font-size: 35px;
+  text-transform: capitalize;
+  color: #1d63ff;
+  background-color: #ffce32;
+  padding: 10px 35px;
+  border-radius: 5px;
+  font-weight: 700;
+  margin-top: 40px;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: #1d63ff;
+  color: #ffce32;
+}
+
+/* common css end */
+
+/* banner start */
+#banner {
+  background: url(../images/banner.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.banner_shado {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 200px 0;
+}
+
+#banner h3 {
+  margin-top: 0px;
+}
+
+#banner p {
+  margin-top: 40px;
+  width: 800px;
+  font-family: sans-serif;
+}
+/* banner end */
+
+/* donate start */
+#donate {
+  padding: 100px 0;
+  background: #ffce32;
+}
+#donate h1 {
+  text-align: center;
+}
+#donate h1 {
+  margin: auto;
+  width: 500px;
+  color: #1d63ff;
+  border-bottom: 2px solid #1d63ff;
+}
+
+#donate .donate_price {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+#donate .donate_price .price {
+  width: 22%;
+  padding: 50px 0;
+  background-color: #fff9e4;
+  border-radius: 5px;
+}
+#donate .donate_price p {
+  font-size: 35px;
+  text-align: center;
+  color: #1d63ff;
+}
+
+#donate .donate_price .price_another {
+  border: 4px solid #fff9e4;
+  background: #1d63ff;
+}
+
+#donate .donate_price .price_another p {
+  color: #ffce32;
+}
+
+.input input {
+  text-align: center;
+  display: block;
+  border: none;
+  width: 700px;
+  padding: 15px;
+  border-bottom: 1px solid #1d63ff;
+  margin: 50px auto;
+  background: none;
+  font-size: 20px;
+}
+
+.input button {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.input .btn {
+  background-color: #1d63ff;
+  color: #ffce32;
+  border: none;
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+}
+
+#donate .pera {
+  color: #000000;
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 30px;
+  width: 780px;
+  text-align: center;
+  margin: 20px auto;
+}
+/* donate end */
+
+/* plan start*/
+#plan{
+    padding: 100px 0;
+    background-color: #1d63ff;
+}
+
+#plan .pera {
+  color: #ffff;
+  font-size: 20px;
+  font-family: sans-serif;
+  line-height: 30px;
+  width: 780px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+#plan h1 {
+    margin: auto;
+    width: 600px;
+    border-bottom: 2px solid #ffce32;
+}
+
+#plan .plan_item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+#plan .plan_item .item{
+    width: 31%;
+    padding: 40px 30px;
+    background-color: #FFF9E4;
+    border-radius: 5px;
+}
+
+#plan .plan_item .item h2{
+  color: #1d63ff;
+  font-size:30px ;
+  margin: 20px 0;
+}
+
+#plan .plan_item .item p {
+	color: #000000;
+	font-size: 20px;
+	font-family: sans-serif;
+	line-height: 30px;
+	text-align: justify;
+	margin: 20px auto;
+}
+
+/* plan end */
+
+
+/* need part start */
+#need_us{
+  padding: 100px 0;
+}
+
+#need_us .main{
+display: flex;
+justify-content: space-between;
+}
+#need_us .main .left{
+  width: 45%;
+}
+
+#need_us .main .left img{
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+#need_us .main .right{
+  width: 45%;
+}
+
+#need_us h3{
+  color: #1d63ff;
+}
+
+#need_us p {
+	color: #000000;
+	font-size: 20px;
+	font-family: sans-serif;
+	line-height: 30px;
+	margin-top: 20px;
+}
+#need_us p span{
+  display: block;
+  margin-top: 20px;
+}
+
+
+/* need part end */
+
+/* updates part start */
+#updates{
+  padding: 100px 0;
+  background-color: #ffce32;
+}
+
+#updates .main{
+  width: 800px;
+  background-color: #1d63ff;
+  margin: 0 auto;
+  padding:80px 80px;
+  border-radius: 5px;
+}
+
+#updates h3 {
+	margin: auto;
+	width: 500px;
+	color: #1d63ff;
+	border-bottom: 2px solid #1d63ff;
+}
+
+#updates .pera {
+	color: #000000;
+	font-size: 20px;
+	font-family: sans-serif;
+	line-height: 30px;
+	width: 780px;
+	text-align: center;
+	margin: 20px auto;
+  margin-bottom: 50px;
+}
+
+
+#updates input {
+  padding: 16px;
+  width: 445px;
+  border: none;
+  border-radius:5px;
+  background-color: #FFF9E4;
+  font-size: 20px;
+}
+#updates .btn {
+	background-color: #ffce32;
+	color: #1d63ff;
+	border: none;
+	font-family: "Oswald", sans-serif;
+	cursor: pointer;
+  padding: 2px 32px;
+  margin: 0;
+}
+
+#updates  form {
+  /* display: block; */
+  margin: 0 auto;
+  position: relative;
+}
+
+#updates  form .btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+
+
+/* updates part endd */
+
+/* footer part start */
+#footer {
+  padding: 50px 0;
+  text-align: center;
+  background: #1d63ff;
+}
+#footer p{
+  color: #ffce32;
+}
+/* footer part end */
+
+
